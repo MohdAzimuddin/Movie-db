@@ -9,5 +9,5 @@ const MovieList = ({ movies }) => {
     </div>
   )
 }
-
+ 
 export default MovieList;
