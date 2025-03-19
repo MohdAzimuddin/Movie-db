@@ -5,7 +5,7 @@ const MovieCard = ({ movie }) => {
           src={`https://image.tmdb.org/t/p/w400${movie.poster_path}`}         
           alt={movie.title}
           className="w-full h-64"
-        />
+        /> 
         <div className="p-4">
           <h2 className="text-xl font-semibold">{movie.title}</h2>
           <p className="text-gray-400">Rating: {movie.vote_average}</p>
