@@ -1,12 +1,63 @@
-# React + Vite
+# Movie Database App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application that fetches and displays movies from The Movie Database (TMDb) API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Displays a list of movies fetched from the TMDb API.
+* Shows movie posters, titles, ratings, and release dates.
+* Responsive grid layout for different screen sizes.
+* Loading indicator while fetching data.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* Tailwind CSS (for styling)
+* TMDb API
+
+## Getting Started
+
+1.  **Clone the repository:**
+
+    ```bash
+    git clone <repository_url>
+    ```
+
+2.  **Navigate to the project directory:**
+
+    ```bash
+    cd <project_directory>
+    ```
+
+3.  **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+4.  **Obtain a TMDb API key:**
+
+    * Go to [TMDb](https://www.themoviedb.org/) and create an account.
+    * Go to your account settings and request an API key.
+
+5.  **Replace the API key in the `App.js` file:**
+
+    * Find the following line in `App.js`:
+
+        ```javascript
+        const res=await fetch("[https://api.themoviedb.org/3/discover/movie?api_key=b19a032083aa92a8ff5fc868c24d20e2](https://api.themoviedb.org/3/discover/movie?api_key=b19a032083aa92a8ff5fc868c24d20e2)")
+        ```
+
+    * Replace `b19a032083aa92a8ff5fc868c24d20e2` with your own API key.
+
+6.  **Start the development server:**
+
+    ```bash
+    npm start
+    ```
+
+7.  **Open the application in your browser:**
+
+    * Go to `http://localhost:3000`
+
+## Project Structure
