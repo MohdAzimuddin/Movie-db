@@ -1,4 +1,4 @@
-# Movie Database App (React)
+# Movie Database App (React+Tailwind CSS)
 
 This is a simple React application that fetches and displays movies from The Movie Database (TMDb) API.
 
