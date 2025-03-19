@@ -7,6 +7,7 @@ This is a simple React application that fetches and displays movies from The Mov
 * Displays a list of movies fetched from the TMDb API.
 * Shows movie posters, titles, ratings, and release dates.
 * Responsive grid layout for different screen sizes.
+* The Rating will display in yellow if it is greater then 6 otherwise it will in red.
 * Loading indicator while fetching data.
 
 ## Technologies Used
