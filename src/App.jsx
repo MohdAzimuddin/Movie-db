@@ -4,7 +4,7 @@ const App = () => {
  
   const [movies,setMovies]=useState([])
 const [loading,SetLoading]=useState(true)
-
+ 
 const FetchMovie=async()=>{
 try{
 const res=await fetch("https://api.themoviedb.org/3/discover/movie?api_key=b19a032083aa92a8ff5fc868c24d20e2") 
