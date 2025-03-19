@@ -60,4 +60,3 @@ This is a simple React application that fetches and displays movies from The Mov
 
     * Go to `http://localhost:3000`
 
-## Project Structure
